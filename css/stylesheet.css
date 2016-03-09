@@ -4,5 +4,11 @@ h1 {
 }
 
 h2 {
-    font-family: fantasy;
+    font-family: Impact, fantasy;
+    background-color: darkseagreen;
+}
+
+h3 {
+    color: gray;
+    font-family: Arial, sans-serif;
 }
