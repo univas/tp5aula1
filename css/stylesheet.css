@@ -26,3 +26,29 @@ td {
 th {
     border: 1px solid red;
 }
+
+.formfield {
+    display: block;
+    width: 40%;
+    border-radius: 10px;
+    border: 2px solid #bcbcbc;
+    padding: 2px 5px 2px 5px;
+}
+
+.formlabel {
+    font-family: Arial, sans-serif;
+}
+
+#edyform {
+    background-color: bisque;
+    float: left;
+    width: 50%;
+    height: 400px;
+}
+
+#g1form {
+    background-color: aqua;
+    float: right;
+    width: 50%;
+    height: 400px;
+}

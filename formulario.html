@@ -2,27 +2,32 @@
 <html>
     <head>
         <meta charset="utf-8">
+        <link type="text/css" rel="stylesheet" href="css/stylesheet.css">
         <title>Meu formulário</title>
     </head>
     <body>
-        <h1>Meu formulário</h1>
-        <form action="http://labs.edysegura.com/requests/" method="post">
-            <label>Nome</label>
-            <input type="text" name="nome">
-            <label>Sobrenome</label>
-            <input type="text" name="sobrenome">
-            <label>Disciplina</label>
-            <select name="disciplina">
-                <option value="tp5">Técnicas de programação 5</option>
-                <option value="es3">Engenharia de software 3</option>
-            </select>
-            <input type="submit" value="Enviar">
-        </form>
-        <h1>Busca no G1</h1>
-        <form action="http://g1.globo.com/busca" method="get">
-            <label>Buscar</label>
-            <input type="text" name="q">
-            <input type="submit" value="Buscar">
-        </form>
+        <div id="edyform">
+            <h1>Meu formulário</h1>
+            <form action="http://labs.edysegura.com/requests/" method="post">
+                <label class="formlabel">Nome</label>
+                <input class="formfield" type="text" name="nome">
+                <label class="formlabel">Sobrenome</label>
+                <input class="formfield" type="text" name="sobrenome">
+                <label class="formlabel">Disciplina</label>
+                <select class="formfield" name="disciplina">
+                    <option value="tp5">Técnicas de programação 5</option>
+                    <option value="es3">Engenharia de software 3</option>
+                </select>
+                <input type="submit" value="Enviar">
+            </form>
+        </div>
+        <div id="g1form">
+            <h1>Busca no G1</h1>
+            <form action="http://g1.globo.com/busca" method="get">
+                <label>Buscar</label>
+                <input type="text" name="q">
+                <input type="submit" value="Buscar">
+            </form>
+        </div>
     </body>
 </html>
